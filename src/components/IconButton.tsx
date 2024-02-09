@@ -1,11 +1,11 @@
-import {Pressable, StyleSheet} from 'react-native';
-
+import {Pressable, StyleSheet, Text} from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 function IconButton({icon, color, onPress}: any) {
   return (
     <Pressable
       onPress={onPress}
       style={({pressed}) => pressed && styles.pressed}>
-      {/* <Ionicons name={icon} size={24} color={color} /> */}
+      <Icon name={icon} size={24} color={color} />
     </Pressable>
   );
 }

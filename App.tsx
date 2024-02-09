@@ -19,7 +19,6 @@ export default function App() {
             contentStyle: {backgroundColor: '#211C6A'},
           }}>
           <Stack.Screen name="MealCategories" component={CategoriesScreen} />
-
           <Stack.Screen name="MealsOverview" component={MealsOverviewScreen} />
           <Stack.Screen
             name="MealDetail"
